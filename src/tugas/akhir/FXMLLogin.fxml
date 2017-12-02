@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="343.0" style="-fx-background-color: cyan;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugas.akhir.FXMLLoginController">
+   <children>
+      <Label layoutX="144.0" layoutY="26.0" prefHeight="41.0" prefWidth="55.0" text="Login" textFill="#4b0d97">
+         <font>
+            <Font name="Sketch " size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="97.0" text="Masukkan username dan password anda" />
+      <Label layoutX="58.0" layoutY="131.0" text="Username">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="173.0" text="Password">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="124.0" layoutY="126.0" />
+      <TextField fx:id="password" layoutX="124.0" layoutY="168.0" />
+      <JFXButton fx:id="login" layoutX="199.0" layoutY="227.0" onAction="#buttonlogin" style="-fx-background-color: skyblue;" text="LOGIN" />
+      <JFXButton fx:id="daftar" layoutX="75.0" layoutY="227.0" onAction="#buttondaftar" style="-fx-background-color: skyblue;" text="DAFTAR" />
+   </children>
+</AnchorPane>
